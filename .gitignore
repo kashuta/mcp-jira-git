@@ -1,0 +1,65 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev-debug.log
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+out/
+coverage/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+*.launch
+.settings/
+
+# OS specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.directory
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.pid
+.lock-wscript
+.npm
+.eslintcache
+.node_repl_history
+
+# Task Master related
+tasks.json
+tasks/
+scripts/task-complexity-report.json 
+
+./cursor
+.cursor/
+PRD.txt
+.windsurfrules
+scripts/
